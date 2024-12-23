@@ -1,0 +1,1 @@
+E:\sonar-scanner-6.2.1.4610-windows-x64\bin\sonar-scanner.bat -D"sonar.projectKey=storeino" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000" -D"sonar.token=sqp_ecac9c44bb3159963bd63e66255c0a1e9adbc4ce"

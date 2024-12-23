@@ -1,0 +1,57 @@
+# Dossiers générés par Node.js et Nuxt.js
+node_modules/
+.nuxt/
+scannerwork/
+.cache/
+.scannerwork/
+config/
+.editorconfig
+
+
+
+# Fichiers de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Configuration de l'éditeur
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Fichiers de build ou déploiement
+dist/
+build/
+out/
+
+# Cache et fichiers temporaires
+*.cache
+*.temp
+*.tmp
+*.swp
+*.DS_Store
+*.log
+*.pid
+*.seed
+*.log.*
+
+# Configuration spécifique à l'utilisateur
+.env
+.env.*
+.local
+
+# Fichiers de coverage (tests)
+coverage/
+.nyc_output/
+
+# Configuration de sonar-scanner
+.sonar/
+
+# Configurations des outils d'intégration continue
+.Dockerfile
+.dockerignore
+
+# Fichiers générés par Tailwind
+tailwind.config.js
+postcss.config.js

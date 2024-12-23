@@ -1,0 +1,19 @@
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdG9yZSI6eyJfaWQiOiI2NjgyY2E2ODRmMTI1ODUxODYwNjc4ZjkiLCJuYW1lIjoiTmFkYUVsUWFkaSIsInN1YmRvbWFpbiI6Im5hZGFlbHFhZGkuc3RvcmVpbm8ud29ybGQifSwidXNlciI6eyJwb3NpdGlvbiI6IkNMSUVOVCIsIl9pZCI6IjY2ODJjYWFkNGYxMjU4NTE4NjA2Nzk1YyIsImZpcnN0bmFtZSI6Im5hZGEiLCJsYXN0bmFtZSI6ImVsIHFhZGkiLCJlbWFpbCI6Im5hZGlhZWxxYWRpMDY2MEBnbWFpbC5jb20ifSwiY29tcGFueSI6eyJzdGF0dXMiOiJVTkNPTVBMRVRFRCIsIl9pZCI6IjYwNDBhY2U4NGU4NzI0MDk1MGE3ZDhjOSIsIm5hbWUiOiJzdG9yZWlubyJ9LCJ0b2tlbklkIjoiODA4NzgwRUxKQlBTNzczMDgzUEpIVFZLIiwiaWF0IjoxNzE5ODUxNTg0LCJleHAiOjE3MjA3MTU1ODR9.R1leP2Mv-ueyCS6Ob-EvUQPbUCTHO5xa3h153QcOitQ
+###
+
+GET https://admin.storeino.world/stores/api/themes/search?name=palest
+X-Auth-Token: {{token}}
+
+###
+POST https://admin.storeino.world/stores/api/themes/update?name=palest
+Content-Type: application/json
+X-Auth-Token: {{token}}
+
+
+{
+  "team": {
+        "_id": "5f21374a175b5e8e309be827",
+        "name": "DEVELOPMENT",
+        "url": "https://market.storeino.com/storeino/"
+      }
+}
